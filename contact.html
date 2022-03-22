@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kimberly Gao">
+  <meta name="keywords" content="Duquesne Incline, Pittsburgh">
+  <meta name="description" content="Tourism site showcasing the Duquesne Incline in Pittsburgh, Pennsylvania">
+  <title>Contact | The Duquesne Incline</title>
+  <link rel="icon" href="images/favicon.ico">
+  
+  <!-- external links to CSS files -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+    <!-- jQuery CSS link -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+  <!-- font imported from google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato&display=swap" rel="stylesheet">
+  
+  <!-- external links to JS files -->
+  <script src="js/script.js"></script>
+  <!-- jQuery JS link -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <!-- header and navigation information -->
+  <header>
+    <div>
+      <img src="images/logo.png" id="logo" alt="Duquesne Incline Logo">
+    <h1><a href="index.html">The Duquesne Incline</a></h1>
+    </div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="visit.html">Visit</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+  <div id="content">
+    <h2 class="page-title">Contact</h2>
+    <!-- mailing address -->
+    <div id="mailing">
+      <p>Please use the map below to find us.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.335311156604!2d-80.01993684188348!3d40.43829179484068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f6af9e693efd%3A0x202746c7955abd33!2s1220%20Grandview%20Ave%2C%20Pittsburgh%2C%20PA%2015211!5e0!3m2!1sen!2sus!4v1618105345612!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!-- mailing list form -->
+    <div id="contact-form">
+      <h3 class="subheader">Join Our Mailing List</h3>
+      <form onsubmit="return validate()" action="mailto:duq.incline@email.com">
+        <label for="uname">Name: </label>
+        <input type="text" id="uname" name="uname" value="" size="20" maxlength="250" required><br/><br/>
+        <label for="zipcode">Zip Code: </label>
+        <input type="text" id="zipcode" value="" size="20" maxlength="5"><br/><br/>
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" required><br/><br/>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter"> Please indicate if you would like to subscribe to the Duquesne Incline's newsletter</label><br/>
+        <input type="submit" id="submit-button" value="Submit" name="btn">
+      </form> 
+    </div>
+  </div>
+  <!-- footer and contact info -->
+  <footer>
+    <h4>Contact Information</h4>
+    <table id="contact-info">
+      <tr>
+        <th>Parking Address</th>
+        <th>Mailing Address</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Website</th>
+        <th>Hours of Operation</th>
+      </tr>
+      <tr>
+        <td>1197 West Carson St.</td>
+        <td>1120 Grandview Ave.</td>
+        <td>412.381.1665</td>
+        <td><a href="mailto:duq.incline@duquesneincline.org">duq.incline@duquesneincline.org</a></td>
+        <td><a href="http://www.duquesneincline.org/index.html" target="_blank">http://www.duquesneincline.org/</a></td>
+        <td>Monday through Saturday: 05:30AM - 12:30AM</td>
+      </tr>
+      <tr>
+        <td>Pittsbutgh, PA 15219</td>
+        <td>Pittsburgh, PA 15211</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Sundays and Holidays: 07:00 AM to 12:30 AM</td>
+      </tr>
+    </table>
+    <div id="socials">
+      <a href="https://www.facebook.com/TheDuquesneIncline/" target="_blank"><img src="images/facebook.png" alt="Facebook Logo"></a>
+      <!-- photo courtesy of CMU IS -->
+      <a href="https://www.facebook.com/TheDuquesneIncline/" target="_blank"><img src="images/youtube.png" alt="Youtube Logo"></a>
+      <!-- photo courtesy of SimilarPNG -->
+      <a href="http://davedicello.com/places/pittsburgh/" target="_blank"><img src="images/camera.png" alt="Camera Icon"></a>
+      <!-- photo courtesy of Iconfinder -->
+    </div>
+    <p id="copyright">&copy; Kimberly Gao</p>
+  </footer>
+</body>
+</html>

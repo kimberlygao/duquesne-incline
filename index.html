@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kimberly Gao">
+  <meta name="keywords" content="Duquesne Incline, Pittsburgh">
+  <meta name="description" content="Tourism site showcasing the Duquesne Incline in Pittsburgh, Pennsylvania">
+  <title>The Duquesne Incline</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- external links to CSS files -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+  <!-- jQuery css links -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+  <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css" />
+  <!-- font imported from google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato&display=swap" rel="stylesheet">
+  
+  <!-- external links to JS files -->
+  <script src="js/script.js"></script>
+  <!-- jQuery JS links -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery.lightbox.min.js"></script>
+  <!-- JS for gallery -->
+  <script>
+    $(function () {
+      $("#content-gallery a").lightBox();
+    });
+  </script>
+</head>
+
+<body>
+  <!-- header and navigation -->
+  <header>
+    <div>
+      <img src="images/logo.png" id="logo" alt="Duquesne Incline Logo">
+      <!-- photo courtesy of Duquense Incline -->
+    <h1><a href="index.html">The Duquesne Incline</a></h1>
+    </div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="visit.html">Visit</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  
+  <div id="content">
+    <img id = "cover-image" src="images/day-pano.jpg" alt="Panorama of the view from the Duquesne Incline">
+    <!-- photo courtesy of Mark W. McNally (Duquense Incline on Facebook) -->
+    <!-- short intro -->
+    <div id="intro">
+      <p id="intro-info">
+        Take a step back in time on a century-old cable car and see the best views of downtown Pittsburgh while riding one of the few remaining inclines in the country. Opened on May 20, 1877, the Duquesne Incline was rescued and restored by a group of local residents in 1963 and still delights residents and visitors with its original, elegant, wooden cable cars. Now you can visit the interior of the incline and watch the machinery while it operates. The Duquesne Incline's upper station houses a museum of Pittsburgh history, including photos and a storehouse of information on inclines from around the world. Unusual Pittsburgh souvenirs, maps and photos can be found at the gift shop.
+      </p>
+    </div>
+    <hr/>
+    <!-- photo gallery -->
+    <h3 class="subheader">Visitor Gallery</h3>
+    <div id="content-gallery">
+      <p>Click on the thumbnail to see full image and description</p>
+      <div id="gallery">
+        <div class="gallery-item" id="galleryThumbnail1"><div id="thmbnlShadow1">
+          <a href="images/slide1.jpg" title="The Duquesne Incline Entrance">
+          <img src="images/slide1.jpg" alt="The Duquesne Incline Entrance"/></a></div></div>
+          <!-- photo courtesy of Duquense Incline on Facebook -->
+          
+          <div class="gallery-item" id="galleryThumbnail2"><div id="thmbnlShadow2">
+          <a href="images/slide2.jpg" title="Inside of a Cable Car at Duquesne Incline">
+          <img src="images/slide2.jpg" alt="Inside of Cable Car"></a></div></div>
+          <!-- photo courtesy of Duquense Incline on Facebook -->
+          
+          <div class="gallery-item" id="galleryThumbnail3"><div id="thmbnlShadow3">
+          <a href="images/slide3.jpg" title="Nightime Fireworks from Top of Incline">
+          <img src="images/slide3.jpg" alt="Fireworks over the City of Pittburgh"></a></div></div>
+          <!-- photo courtesy of Duquense Incline on Facebook -->
+    
+          <div class="gallery-item" id="galleryThumbnail4"><div id="thmbnlShadow4">
+            <a href="images/slide4.jpg" title="View from Incline on a Snowy Day">
+            <img src="images/slide4.jpg" alt="Snow covered view of Pittsburgh Skyline"></a></div></div>
+            <!-- photo courtesy of Duquense Incline on Facebook -->
+    
+          <div class="gallery-item" id="galleryThumbnail5"><div id="thmbnlShadow5">
+          <a href="images/slide5.jpg" title="Cable Car over a CLoudy Pittsburgh Day">
+          <img src="images/slide5.jpg" alt="Red Cable Car in a Sky Full of Clouds"></a></div></div>
+          <!-- photo courtesy of Duquense Incline on Facebook -->
+
+          <div class="gallery-item" id="galleryThumbnail6"><div id="thmbnlShadow6">
+          <a href="images/slide6.jpg" title="Veteran's Day at Duquesne Incline">
+          <img src="images/slide6.jpg" alt="Veterans Standing in front of Duquesne Entrance"></a></div></div>
+          <!-- photo courtesy of Duquense Incline on Facebook -->
+      </div>
+    </div>
+    <!-- three column programs -->
+    <div id="programs">
+      <h3 class="subheader">Programs</h3>
+      <div id="program-boxes">
+        <div class="program-box">
+          <h4><a href="visit.html">Groups Tours</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit dolor leo, ac accumsan lorem consequat eget. Nam ut massa malesuada, tincidunt nulla ut, sollicitudin tortor. Aliquam eu est elementum, placerat purus sed, rutrum metus. Sed hendrerit a sem id tristique. Sed vulputate egestas mi, sit amet aliquam diam scelerisque vel. Pellentesque eget cursus odio. Curabitur porttitor rutrum nunc, sed varius risus viverra quis.Nunc nec libero sit amet lacus vehicula scelerisque.</p>
+        </div>
+        <div class="program-box">
+          <h4><a href="visit.html">Field Trips</a></h4>
+          <p>Curabitur condimentum justo libero. Nunc pretium rutrum lacus, vitae suscipit erat condimentum ac. Suspendisse euismod leo vitae tempus consectetur. Integer tellus massa, hendrerit ac tellus ut, feugiat tristique mi. Donec dictum, urna eu dapibus dapibus, ex nisl maximus tellus, vel pharetra lacus enim eget augue. Quisque vitae venenatis ipsum. Duis a efficitur massa. Aliquam at efficitur mauris, in accumsan neque. Donec mollis posuere tincidunt. Aliquam viverra ex sed dui ultricies lobortis.</p>
+        </div>
+        <div class="program-box">
+          <h4>Patch Program</h4>
+          <p>Etiam posuere lacinia risus, ut cursus lorem. Donec sed justo eget sapien imperdiet cursus nec ac tortor. Proin ultricies vestibulum tristique. Praesent pretium turpis tellus, a hendrerit nisl semper et. Nam cursus augue consequat tellus faucibus commodo. Quisque mollis erat a risus sagittis, eu viverra est tempor. Donec quis rutrum eros. Proin dictum diam vitae nisl imperdiet, sed pellentesque tortor tempus. Pellentesque ultricies est interdum tempor molestie.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer and contact information -->
+  <footer>
+    <h4>Contact Information</h4>
+    <table id="contact-info">
+      <tr>
+        <th>Parking Address</th>
+        <th>Mailing Address</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Website</th>
+        <th>Hours of Operation</th>
+      </tr>
+      <tr>
+        <td>1197 West Carson St.</td>
+        <td>1120 Grandview Ave.</td>
+        <td>412.381.1665</td>
+        <td><a href="mailto:duq.incline@duquesneincline.org">duq.incline@duquesneincline.org</a></td>
+        <td><a href="http://www.duquesneincline.org/index.html" target="_blank">http://www.duquesneincline.org/</a></td>
+        <td>Monday through Saturday: 05:30AM - 12:30AM</td>
+      </tr>
+      <tr>
+        <td>Pittsbutgh, PA 15219</td>
+        <td>Pittsburgh, PA 15211</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Sundays and Holidays: 07:00 AM to 12:30 AM</td>
+      </tr>
+    </table>
+    <div id="socials">
+      <a href="https://www.facebook.com/TheDuquesneIncline/" target="_blank"><img src="images/facebook.png" alt="Facebook Logo"></a>
+      <!-- photo courtesy of CMU IS -->
+      <a href="https://www.facebook.com/TheDuquesneIncline/" target="_blank"><img src="images/youtube.png" alt="Youtube Logo"></a>
+      <!-- photo courtesy of SimilarPNG -->
+      <a href="http://davedicello.com/places/pittsburgh/" target="_blank"><img src="images/camera.png" alt="Camera Icon"></a>
+      <!-- photo courtesy of Iconfinder -->
+    </div>
+    <p id="copyright">&copy; Kimberly Gao</p>
+  </footer>
+</body>
+</html>
